@@ -6,8 +6,8 @@
 echo -e ">>> Authentication !"
 
 git remote set-url origin $REPO.git
-git config --global user.email "<org@email>"
-git config --global user.name "<org> (via TravisCI)"
+git config --global user.email "20cwilliams09@gmail.com"
+git config --global user.name "c-williams (via TravisCI)"
 
 if [ -z "$id_rsa_{1..23}" ]; then echo 'No $id_rsa_{1..23} found !' ; exit 1; fi
 
